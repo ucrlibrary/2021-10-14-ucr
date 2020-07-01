@@ -35,7 +35,7 @@ flavor: "r"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Online Software Carpentry Workshop at UC Riverside <br>The Unix Shell<br><br><small>Part of the UCR Library Summer workshop series, Working With Data</small>"
+title: "Online Software Carpentry Workshop at UC Riverside <br>The Unix Shell<br><small>Part of the UCR Library Summer workshop series, Working With Data</small>"
 
 
 #------------------------------------------------------------
