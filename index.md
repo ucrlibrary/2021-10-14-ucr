@@ -1,11 +1,11 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "University of California, Riverside"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Online (ignore the following coordinates, this workshop is online!)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latitude:      # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude:     # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude:  "33.972643"    # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude:  "-117.327482"   # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "July 24, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:00 a.m. - 12 noon"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-07-24      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
