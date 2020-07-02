@@ -6,15 +6,15 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude:  "33.972643"    # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude:  "-117.327482"   # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "July 24, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "8:00 a.m. - 12 noon"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-07-24      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-07-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+humandate: "August 7, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "10:00 a.m. - 12 noon"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2020-08-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-08-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Kat Koziar"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Rachel Starry"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["katherine.koziar@ucr.du"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:  110191172764         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:  110200897852         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
