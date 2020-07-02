@@ -62,6 +62,23 @@ Geospatial workshops
 {% elsif site.curriculum == "dc-geospatial" %}
 <p>The setup instructions for the Data Carpentry Geospatial workshop can be found at <a href="https://datacarpentry.org/geospatial-workshop/setup.html">the workshop overview site</a>.</p>
 
+{% elsif site.curriculum == "dc-socsci" %}
+<div>
+  ## Software
+
+To interact with spreadsheets, we can use LibreOffice, Microsoft Excel,
+Gnumeric, or other programs. Commands may differ a bit between programs, but
+the general ideas for thinking about spreadsheets are the same.
+
+For this lesson, if you don't have a spreadsheet program already, you can use
+LibreOffice. It's a free, open source spreadsheet program.
+
+macOS users who use Apple's Numbers application should note that it does not
+contain some of the features (particularly data validation) that we will
+be using. Please use LibreOffice or Microsoft Excel instead.
+</div>
+
 {% else %}
 {% include warning-curriculum.html %}
 {% endif %}
+
