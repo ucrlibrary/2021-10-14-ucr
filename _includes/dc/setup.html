@@ -1,5 +1,3 @@
-test
-
 {% comment %}
 Ecology workshops
 {% endcomment %}
@@ -40,79 +38,76 @@ Social sciences workshops
 {% if site.flavor == "r" %}
 <div>
 <h3>Data Organization in Spreadsheets</h3>
-
+<p>
 To interact with spreadsheets, we can use LibreOffice, Microsoft Excel,
 Gnumeric, or other programs. Commands may differ a bit between programs, but
 the general ideas for thinking about spreadsheets are the same.
-
+</p>
+<p>
 For this lesson, if you don't have a spreadsheet program already, you can use
 LibreOffice. It's a free, open source spreadsheet program.
-
+</p>
+<p>
 macOS users who use Apple's Numbers application should note that it does not
 contain some of the features (particularly data validation) that we will
 be using. Please use LibreOffice or Microsoft Excel instead.
-</div>
+</p></div>
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#spreadsheet-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#spreadsheet-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#spreadsheet-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+      <li role="presentation" class="active"><a data-os="windows" href="#spreadsheet-windows" aria-controls="Windows" role="tab" data-toggle="tab">LibreOffice on Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#spreadsheet-macos" aria-controls="MacOS" role="tab" data-toggle="tab">LibreOffice on MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#spreadsheet-linux" aria-controls="Linux" role="tab" data-toggle="tab">LibreOffice on Linux</a></li>
     </ul>
 
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="spreadsheet-windows">
         <p>
-         #### Windows
-
-		- Download the Installer
-		- Install LibreOffice by going to [the installation
-		  page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
-		  for Windows should automatically be selected. Click Download Version X.X.X
-		  (whichever is the most recent version).
-		- Install LibreOffice
-		- Once the installer is downloaded, double click on it and LibreOffice should
-		  install.
-
-
-
+          <ul>
+            <li>Download the Installer</li>
+            <li>Install LibreOffice by going to <a href="https://www.libreoffice.org/download/libreoffice-fresh/">the installation page.</a> 
+              The version for Windows should automatically be selected. Click Download Version 
+              X.X.X (whichever is the most recent version).</li>
+            <li>Install LibreOffice</li>
+            <li>Once the installer is downloaded, double click on it and LibreOffice 
+            should install.</li>
+          </ul>
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="spreadsheet-macos">
         <p>
-        #### Mac OS X
-
-		- Download the Installer
-		 - Install LibreOffice by going to [the installation
-		   page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
-		   for Mac should automatically be selected. Click Download Version X.X.X
-		   (whichever is the most recent version).
-		- Install LibreOffice
-		- Once the installer is downloaded, double click on it and LibreOffice should
-		  install.
-
+          <ul>
+            <li>Download the Installer</li>
+            <li>Install LibreOffice by going to <a href="https://www.libreoffice.org/download/libreoffice-fresh/">the installation page.</a> 
+              The version for Mac should automatically be selected. Click Download Version 
+              X.X.X (whichever is the most recent version).</li>
+            <li>Install LibreOffice</li>
+            <li>Once the installer is downloaded, double click on it and LibreOffice 
+            should install.</li>
+          </ul>
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="spreadsheet-linux">
         <p>
-        #### Linux
-
-		- Download the Installer
-		- Install LibreOffice by going to [the installation
-		  page](https://www.libreoffice.org/download/libreoffice-fresh/). The version
-		  for Linux should automatically be selected. Click Download Version X.X.X
-		  (whichever is the most recent version).
-		- Install LibreOffice
-		- Once the installer is downloaded, double click on it and LibreOffice should
-		  install.
-		- package manager option:
-		  - pacman (Arch): `pacman -S libreoffice`
-		  - yum (Fedora, CentOS): `yum install libreoffice`
-		  - apt (Debian, Ubuntu): `apt install libreoffice`
+          <ul>
+            <li>Download the Installer</li>
+            <li>Install LibreOffice by going to <a href="https://www.libreoffice.org/download/libreoffice-fresh/">the installation page.</a> 
+              The version for Linux should automatically be selected. Click Download Version 
+              X.X.X (whichever is the most recent version).</li>
+            <li>Install LibreOffice</li>
+            <li>Once the installer is downloaded, double click on it and LibreOffice 
+            should install.</li>
+          </ul>
+          <strong>Package manager option:</strong>
+          <ul>
+            <li>pacman (Arch): <code>pacman -S libreoffice</code></li>
+            <li>yum (Fedora, CentOS): <code>yum install libreoffice</code></li>
+            <li>apt (Debian, Ubuntu): <code>apt install libreoffice</code></li>
+          </ul>
         </p>
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'spreadsheet' section. {% endcomment %}
+{% comment %} End of 'spreadsheet' section. {% endcomment %}
 
 
 
