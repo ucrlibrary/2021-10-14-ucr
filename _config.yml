@@ -26,8 +26,9 @@ curriculum: "dc-socsci"
 # If there is both an R and python official version of a curriculum, change the
 # value of the variable below ("flavor") to get the schedule updated accordingly
 # (valid values are 'r' or 'python').
+# sheets: indicates teaching spreadsheets (data org & open refine) but not programming
 # Note: this is only for Data Carpentry curricula at this time.
-flavor: "none"
+flavor: "sheets"
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
